@@ -1,8 +1,8 @@
-﻿using AmazingUILibrary;
-using AmazingUILibrary.Backgrounds;
-using AmazingUILibrary.Containers;
-using AmazingUILibrary.Drawing;
-using AmazingUILibrary.Elements;
+﻿using UILibrary;
+using UILibrary.Backgrounds;
+using UILibrary.Containers;
+using UILibrary.Drawing;
+using UILibrary.Elements;
 using GameEngine.Game;
 using SharpDX;
 using SharpDX.DirectWrite;
@@ -38,12 +38,12 @@ namespace GameLibrary.Scenes
             var startText = new UIText("Start", new Vector2(120, 42), "textFormat", "whiteBrush");
             var quitText = new UIText("Quit", new Vector2(120, 42), "textFormat", "whiteBrush");
 
-            var startButton = new UILibrary(startText) 
+            var startButton = new UILibrary.Elements.UILibrary(startText) 
             { 
                 ReleasedBackground = new NinePartsTextureBackground("buttonBitmap"), 
                 PressedBackground = new NinePartsTextureBackground("buttonPressedBitmap")
             };
-            var quitButton = new UILibrary(quitText)
+            var quitButton = new UILibrary.Elements.UILibrary(quitText)
             {
                 ReleasedBackground = new NinePartsTextureBackground("buttonBitmap"),
                 PressedBackground = new NinePartsTextureBackground("buttonPressedBitmap")

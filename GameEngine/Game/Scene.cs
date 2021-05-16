@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AmazingUILibrary;
-using AmazingUILibrary.Containers;
-using AmazingUILibrary.Drawing;
+using UILibrary;
+using UILibrary.Containers;
+using UILibrary.Drawing;
 using GameEngine.Graphics;
 using SharpDX;
 using Sound;
@@ -147,11 +147,11 @@ namespace GameEngine.Game
                 }
 
                 //!!!!
-                if (obj.Collision != null)
-                {
-                    renderer.UpdatePerObjectConstantBuffers(Matrix.Translation(obj.Position), viewMatrix, projectionMatrix, 1);
-                    renderer.RenderMeshObject(obj.Collision.GetMesh());
-                }
+                //if (obj.Collision != null)
+                //{
+                //    renderer.UpdatePerObjectConstantBuffers(Matrix.Translation(obj.Position), viewMatrix, projectionMatrix, 1);
+                //    renderer.RenderMeshObject(obj.Collision.GetMesh());
+                //}
             }
 
             foreach (var child in obj.Children)

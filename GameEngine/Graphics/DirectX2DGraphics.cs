@@ -7,7 +7,7 @@ using Direct2DFactory = SharpDX.Direct2D1.Factory;
 using Direct2DPixelFormat = SharpDX.Direct2D1.PixelFormat;
 using Direct2DAlphaMode = SharpDX.Direct2D1.AlphaMode;
 using Direct2DTextAntialiasMode = SharpDX.Direct2D1.TextAntialiasMode;
-using AmazingUILibrary.Drawing;
+using UILibrary.Drawing;
 
 namespace GameEngine.Graphics
 {

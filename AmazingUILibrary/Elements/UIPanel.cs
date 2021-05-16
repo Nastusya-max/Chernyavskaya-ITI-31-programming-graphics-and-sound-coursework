@@ -1,7 +1,7 @@
-﻿using AmazingUILibrary.Drawing;
+﻿using UILibrary.Drawing;
 using SharpDX;
 
-namespace AmazingUILibrary.Elements
+namespace UILibrary.Elements
 {
     public class UIPanel : UIElement
     {

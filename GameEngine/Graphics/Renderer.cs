@@ -5,7 +5,7 @@ using SharpDX.DXGI;
 using SharpDX.D3DCompiler;
 using SharpDX.Direct3D11;
 using Device11 = SharpDX.Direct3D11.Device;
-using AmazingUILibrary;
+using UILibrary;
 using GameEngine.Graphics.Buffers;
 
 namespace GameEngine.Graphics

@@ -1,6 +1,6 @@
 ﻿using SharpDX;
 
-namespace AmazingUILibrary.Containers
+namespace UILibrary.Containers
 {
     public class UIMarginContainer : UISingleElementContainer
     {

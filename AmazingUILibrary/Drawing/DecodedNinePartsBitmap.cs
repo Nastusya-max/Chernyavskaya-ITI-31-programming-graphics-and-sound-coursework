@@ -1,7 +1,7 @@
 ﻿using SharpDX.WIC;
 using System;
 
-namespace AmazingUILibrary.Drawing
+namespace UILibrary.Drawing
 {
     public class DecodedNinePartsBitmap : IDisposable
     {

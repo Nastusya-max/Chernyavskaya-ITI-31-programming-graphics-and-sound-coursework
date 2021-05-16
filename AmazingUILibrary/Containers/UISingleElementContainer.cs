@@ -1,7 +1,7 @@
-﻿using AmazingUILibrary.Drawing;
+﻿using UILibrary.Drawing;
 using SharpDX;
 
-namespace AmazingUILibrary.Containers
+namespace UILibrary.Containers
 {
     public class UISingleElementContainer : UIElement
     {

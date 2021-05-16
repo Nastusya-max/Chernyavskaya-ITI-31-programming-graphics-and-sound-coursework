@@ -1,5 +1,5 @@
-﻿using AmazingUILibrary;
-using AmazingUILibrary.Elements;
+﻿using UILibrary;
+using UILibrary.Elements;
 using GameEngine.Collisions;
 using GameEngine.Game;
 using GameEngine.Graphics;
@@ -15,11 +15,11 @@ namespace GameLibrary.Scripts
 
         private readonly InputController _inputController;
 
-        private readonly Dictionary<string, UILibrary> _buttons;
+        private readonly Dictionary<string, UILibrary.Elements.UILibrary> _buttons;
 
         private Dictionary<string, Func<Game3DObject>> _towers;
 
-        public CreateTowerScript(Game3DObject townHall, Dictionary<string, Func<Game3DObject>> towers, UIElement ui, Dictionary<string, UILibrary> buttons)
+        public CreateTowerScript(Game3DObject townHall, Dictionary<string, Func<Game3DObject>> towers, UIElement ui, Dictionary<string, UILibrary.Elements.UILibrary> buttons)
         {
             _ui = ui;
             _inputController = InputController.GetInstance();

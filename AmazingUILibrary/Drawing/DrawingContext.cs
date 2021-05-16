@@ -11,7 +11,7 @@ using Direct2DBitmap = SharpDX.Direct2D1.Bitmap;
 using Direct2DBitmapInterpolationMode = SharpDX.Direct2D1.BitmapInterpolationMode;
 using WicPixelFormat = SharpDX.WIC.PixelFormat;
 
-namespace AmazingUILibrary.Drawing
+namespace UILibrary.Drawing
 {
     public class DrawingContext : IDisposable
     {

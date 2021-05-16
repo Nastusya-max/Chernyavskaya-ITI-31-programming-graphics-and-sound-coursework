@@ -1,8 +1,8 @@
-﻿using AmazingUILibrary.Drawing;
+﻿using UILibrary.Drawing;
 using SharpDX;
 using System.Collections.Generic;
 
-namespace AmazingUILibrary.Containers
+namespace UILibrary.Containers
 {
     public class UIMultiElementsContainer : UIElement
     {

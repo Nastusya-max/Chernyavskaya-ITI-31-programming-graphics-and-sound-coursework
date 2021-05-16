@@ -3,7 +3,7 @@ using SharpDX.Direct2D1;
 using SharpDX.Mathematics.Interop;
 using System;
 
-namespace AmazingUILibrary.Drawing
+namespace UILibrary.Drawing
 {
     public class NinePartsBitmap : IDisposable
     {

@@ -1,10 +1,10 @@
-﻿using AmazingUILibrary.Backgrounds;
-using AmazingUILibrary.Drawing;
+﻿using UILibrary.Backgrounds;
+using UILibrary.Drawing;
 using SharpDX;
 using SharpDX.Mathematics.Interop;
 using System;
 
-namespace AmazingUILibrary
+namespace UILibrary
 {
     public abstract class UIElement
     {

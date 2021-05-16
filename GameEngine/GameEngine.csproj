@@ -113,16 +113,6 @@
     <Compile Include="Utils\CopyableGameObject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AmazingUILibrary\UILibrary.csproj">
-      <Project>{cf74fe1a-061f-4d71-a9e5-5a3538b3c59d}</Project>
-      <Name>UILibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sound\SoundLibrary.csproj">
-      <Project>{2537db68-ca2f-4811-8df6-801e449dc363}</Project>
-      <Name>SoundLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="ClassDiagram1.cd" />
     <None Include="ClassDiagram2.cd" />
     <None Include="ClassDiagram3.cd" />
@@ -159,6 +149,16 @@
     <Content Include="Textures\white.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AmazingUILibrary\UILibrary.csproj">
+      <Project>{cf74fe1a-061f-4d71-a9e5-5a3538b3c59d}</Project>
+      <Name>UILibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound\SoundLibrary.csproj">
+      <Project>{2537db68-ca2f-4811-8df6-801e449dc363}</Project>
+      <Name>SoundLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AssimpNet.4.1.0\build\AssimpNet.targets" Condition="Exists('..\packages\AssimpNet.4.1.0\build\AssimpNet.targets')" />

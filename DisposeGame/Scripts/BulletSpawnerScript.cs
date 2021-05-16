@@ -46,13 +46,13 @@ namespace GameLibrary.Scripts
             Game3DObject copyBullet = _bullet.GetCopy();
             copyBullet.MoveTo(position);
             //copyBullet.MoveTo(GameObject.Position);
-            if ((GameObject.Position - _target.Position).Length() <= 2)
+            if ((GameObject.Position - _target.Position).Length() <= 1.5f)
             {
                 copyBullet.AddScript(new BulletScript(direction));
                 GameObject.Scene.AddGameObject(copyBullet);
                 OnEggShoot?.Invoke();
             }
-            
+
 
             _lastCreatingTime = 0;
             _isCreating = true;

@@ -1,8 +1,8 @@
-﻿using AmazingUILibrary.Backgrounds;
-using AmazingUILibrary.Containers;
+﻿using UILibrary.Backgrounds;
+using UILibrary.Containers;
 using SharpDX;
 
-namespace AmazingUILibrary.Elements
+namespace UILibrary.Elements
 {
     public class UILibrary : UISingleElementContainer
     {

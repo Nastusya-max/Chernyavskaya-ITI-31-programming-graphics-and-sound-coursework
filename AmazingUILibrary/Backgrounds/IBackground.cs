@@ -1,8 +1,8 @@
-﻿using AmazingUILibrary.Drawing;
+﻿using UILibrary.Drawing;
 using SharpDX.Mathematics.Interop;
 using System;
 
-namespace AmazingUILibrary.Backgrounds
+namespace UILibrary.Backgrounds
 {
     public interface IBackground
     {

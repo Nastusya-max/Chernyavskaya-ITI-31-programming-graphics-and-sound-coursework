@@ -24,7 +24,7 @@ namespace GameLibrary.Scripts
 
         public override void Init()
         {
-            new Transition(0, 0, 3).TransitionEnded += () => {
+            new Transition(0, 0, 1).TransitionEnded += () => {
                 GameObject.Scene.RemoveGameObject(GameObject);
             };
         }
@@ -35,11 +35,6 @@ namespace GameLibrary.Scripts
             ObjectCollision collision = GameObject.Collision;
             foreach (Game3DObject gameObject in GameObject.Scene.GameObjects)
             {
-                //void DeleteBullet(object state)
-                //{
-                //    GameObject.Scene.RemoveGameObject(gameObject);
-                //}
-
                 if (gameObject == GameObject) continue;
 
                 if (gameObject.Collision != null)
@@ -49,10 +44,6 @@ namespace GameLibrary.Scripts
                         gameObject.GetComponent<HealthComponent>()?.DealDamage(_damage);
                         GameObject.Scene.RemoveGameObject(GameObject);
                     }
-
-                    //TimerCallback timeCB = new TimerCallback(DeleteBullet);
-
-                    //Timer time = new Timer(timeCB, null, 0, 5000);
                 }
             }
         }

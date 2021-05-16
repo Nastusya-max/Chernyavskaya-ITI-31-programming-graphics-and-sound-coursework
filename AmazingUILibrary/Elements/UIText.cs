@@ -1,7 +1,7 @@
 ﻿using SharpDX;
-using AmazingUILibrary.Drawing;
+using UILibrary.Drawing;
 
-namespace AmazingUILibrary.Elements
+namespace UILibrary.Elements
 {
     public class UIText : UIElement
     {

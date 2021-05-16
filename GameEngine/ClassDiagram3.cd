@@ -1,70 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="GameEngine.Animation.Animation" Collapsed="true">
-    <Position X="8.5" Y="0.5" Width="1.5" />
+    <Position X="50.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EEAwCIAEAAABAAAKBgACAAABAEBABCABAiQAAQAAAAA=</HashCode>
       <FileName>Animation\Animation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Animation.SmoothAnimation" Collapsed="true">
-    <Position X="8.5" Y="1.75" Width="1.5" />
+    <Position X="50.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animation\SmoothAnimation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Animation.SmoothTransition" Collapsed="true">
-    <Position X="6.5" Y="7.75" Width="1.5" />
+    <Position X="48.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Animation\SmoothTransition.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Animation.Transition" Collapsed="true">
-    <Position X="6.5" Y="6.5" Width="1.5" />
+    <Position X="48.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQgCCIgQAAggAAABhAAAAAkAABAAAAAAAAAgAQAAAA=</HashCode>
       <FileName>Animation\Transition.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Collisions.BoxCollision" Collapsed="true">
-    <Position X="5.25" Y="4.75" Width="1.5" />
+    <Position X="47" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAgABAAAAAAAAAAAAgAAAAAAAABAAAAAAACA=</HashCode>
       <FileName>Collisions\BoxCollision.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Collisions.ObjectCollision" Collapsed="true">
-    <Position X="3" Y="3.5" Width="1.5" />
+    <Position X="44.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAIAAgCBIAAAAAEQAAAAgIAAAAAAAAAABAYEAIE=</HashCode>
       <FileName>Collisions\ObjectCollision.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Collisions.RayCollision" Collapsed="true">
-    <Position X="0.75" Y="4.75" Width="1.5" />
+    <Position X="42.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CABAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Collisions\RayCollision.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Collisions.SphereCollision" Collapsed="true">
-    <Position X="3" Y="4.75" Width="1.5" />
+    <Position X="44.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAgABAAAAAAAAAAAAgAAAAAAAAAAAAAAAACA=</HashCode>
       <FileName>Collisions\SphereCollision.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Components.ObjectComponent" Collapsed="true">
-    <Position X="12.75" Y="2.5" Width="1.5" />
+    <Position X="54.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>Components\ObjectComponent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Game.Game" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="16.25" Y="0.5" Width="1.5" />
+    <Position X="58" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAiABAAAACAEIAAABAAAAAABUAggQABAAQIAACAAQgI=</HashCode>
       <FileName>Game\Game.cs</FileName>
@@ -72,7 +72,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Game.InputController" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="12.75" Y="1.5" Width="1.5" />
+    <Position X="54.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAACCQCAKAAAgjAFCCAEERQsIAEMAHIQgAGIEFCk=</HashCode>
       <FileName>Game\InputController.cs</FileName>
@@ -80,7 +80,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Game.Loader" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="14.5" Y="1.5" Width="1.5" />
+    <Position X="56.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QACSQggIBGABACAAAAAAAAABAAAAQAAiAQIAAABAAAA=</HashCode>
       <FileName>Game\Loader.cs</FileName>
@@ -88,7 +88,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Game.Scene" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="16.25" Y="2.5" Width="1.5" />
+    <Position X="58" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEViAAAVASABAwBAAQQBAAAACAoAAAICAAAJIAAAMAA=</HashCode>
       <FileName>Game\Scene.cs</FileName>
@@ -96,14 +96,14 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Game.TimeHelper" Collapsed="true">
-    <Position X="12.75" Y="3.5" Width="1.5" />
+    <Position X="54.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAwAAAAAEAAgBAAAACAAAAAQAAAABAAAAAEAAAAAIQA=</HashCode>
       <FileName>Game\TimeHelper.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.Buffers.ConstantBuffer&lt;T&gt;" Collapsed="true">
-    <Position X="3" Y="0.5" Width="1.5" />
+    <Position X="44.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAIgBCAAAAAAAAAAAAIAQAAAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Graphics\Buffers\ConstantBuffer.cs</FileName>
@@ -111,35 +111,35 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameEngine.Graphics.Buffers.MaterialConstantBuffer" Collapsed="true">
-    <Position X="5.25" Y="1.75" Width="1.5" />
+    <Position X="47" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Graphics\Buffers\MaterialConstantBuffer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.Buffers.PerFrameConstantBuffer" Collapsed="true">
-    <Position X="0.75" Y="1.75" Width="1.5" />
+    <Position X="42.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Graphics\Buffers\PerFrameConstantBuffer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.Buffers.PerObjectConstantBuffer" Collapsed="true">
-    <Position X="3" Y="1.75" Width="1.5" />
+    <Position X="44.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Graphics\Buffers\PerObjectConstantBuffer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.Camera" Collapsed="true">
-    <Position X="0.5" Y="7.75" Width="1.5" />
+    <Position X="42.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAAAgAAAAAECAEAAABAAAAAgBCAAAAAACAAAAAAAASA=</HashCode>
       <FileName>Graphics\Camera.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.DirectX2DGraphics" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="12.75" Y="0.5" Width="1.5" />
+    <Position X="54.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAACAAAACAAAQAAAAABQAEDAAAAAAAAAAECAAUAAAA=</HashCode>
       <FileName>Graphics\DirectX2DGraphics.cs</FileName>
@@ -147,7 +147,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Graphics.DirectX3DGraphics" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="14.5" Y="0.5" Width="1.5" />
+    <Position X="56.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACiQAAEEACAAAwwAAAAAAgADVIAOgIAAAgDCCAEBAAA=</HashCode>
       <FileName>Graphics\DirectX3DGraphics.cs</FileName>
@@ -155,7 +155,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Graphics.Game3DObject" Collapsed="true">
-    <Position X="0.5" Y="6.5" Width="1.5" />
+    <Position X="42.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAQQWSAAEKAIMYAxgAAFRIAQgAAIAAgIASQAhAAEMAA=</HashCode>
       <FileName>Graphics\Game3DObject.cs</FileName>
@@ -163,7 +163,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameEngine.Graphics.Renderer" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="14.5" Y="2.5" Width="1.5" />
+    <Position X="56.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>WAAAAGAASScDAAAQIEAAgRAJQCgChMAEDAgJAAIBQAE=</HashCode>
       <FileName>Graphics\Illumination.cs</FileName>
@@ -171,14 +171,14 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Graphics.Material" Collapsed="true">
-    <Position X="16.25" Y="1.5" Width="1.5" />
+    <Position X="58" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAA=</HashCode>
       <FileName>Graphics\Material.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.MeshObject" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11" Y="2.5" Width="1.5" />
+    <Position X="52.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAIEAAACAASQAAhIAAACQFBACBAMAICAgAkBAAAAA=</HashCode>
       <FileName>Graphics\MeshObject.cs</FileName>
@@ -186,14 +186,14 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Graphics.OrthoCamera" Collapsed="true">
-    <Position X="0.5" Y="9.25" Width="1.5" />
+    <Position X="42.25" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Graphics\OrthoCamera.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Graphics.Texture" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11" Y="3.5" Width="1.5" />
+    <Position X="52.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABCCIAABAAAAAAkAAABAAEAAAAAAAAIEAAAA=</HashCode>
       <FileName>Graphics\Texture.cs</FileName>
@@ -201,21 +201,21 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Scripts.KeyboardListenerScript" Collapsed="true">
-    <Position X="3.5" Y="7.75" Width="1.5" />
+    <Position X="45.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAwAAAAAIAAAAAAAAAAAAAAAgAAABAAAAAAAIAAAAAA=</HashCode>
       <FileName>Scripts\KeyboardListenerScript.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.Scripts.Script" Collapsed="true">
-    <Position X="3.5" Y="6.5" Width="1.5" />
+    <Position X="45.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAA=</HashCode>
       <FileName>Scripts\Script.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameEngine.IncludeHandler" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11" Y="1.5" Width="1.5" />
+    <Position X="52.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACBAIAAAEAAAAAAAAAAAAAAAAAAAAACAABA=</HashCode>
       <FileName>Shaders\IncludeHandler.cs</FileName>
@@ -223,32 +223,116 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameEngine.Utils.CopyableGameObject" Collapsed="true">
-    <Position X="11" Y="0.5" Width="1.5" />
+    <Position X="52.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAABAIAAAA=</HashCode>
       <FileName>Utils\CopyableGameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Sound.SharpAudioVoice" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sound.SharpAudioDevice" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AmazingUILibrary.UIElement" Collapsed="true">
+    <Position X="30.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Elements.UIText" Collapsed="true">
+    <Position X="31.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Elements.UIProgressBar" Collapsed="true">
+    <Position X="29.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Elements.UIPanel" Collapsed="true">
+    <Position X="24.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Elements.UILibrary" Collapsed="true">
+    <Position X="36" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Drawing.NinePartsBitmap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AmazingUILibrary.Drawing.DrawingContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AmazingUILibrary.Drawing.DecodedNinePartsBitmap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AmazingUILibrary.Containers.UISingleElementContainer" Collapsed="true">
+    <Position X="34.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Containers.UISequentialContainer" Collapsed="true">
+    <Position X="27" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Containers.UIMultiElementsContainer" Collapsed="true">
+    <Position X="27" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Containers.UIMarginContainer" Collapsed="true">
+    <Position X="33.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazingUILibrary.Backgrounds.TextureBackground" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AmazingUILibrary.Backgrounds.NinePartsTextureBackground" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AmazingUILibrary.Backgrounds.ColorBackground" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
   <Struct Name="GameEngine.Graphics.Buffers.MaterialProperties" Collapsed="true">
-    <Position X="11" Y="4.75" Width="1.5" />
+    <Position X="52.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAAAAAAAAAgAAAAAAAEAAAABAAAAABCAAA=</HashCode>
       <FileName>Graphics\Buffers\MaterialConstantBuffer.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="GameEngine.Graphics.Buffers.PerFrameData" Collapsed="true">
-    <Position X="12.75" Y="4.75" Width="1.5" />
+    <Position X="54.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Graphics\Buffers\PerFrameConstantBuffer.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="GameEngine.Graphics.Buffers.PerObjectData" Collapsed="true">
-    <Position X="14.5" Y="4.75" Width="1.5" />
+    <Position X="56.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAEAAAAEAAEAACAAAAAAAAA=</HashCode>
       <FileName>Graphics\Buffers\PerObjectConstantBuffer.cs</FileName>
     </TypeIdentifier>
   </Struct>
+  <Interface Name="AmazingUILibrary.Backgrounds.IBackground" Collapsed="true">
+    <Position X="38.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Delegate Name="Sound.SoundStop" Collapsed="true">
+    <Position X="44" Y="13.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
   <Font Name="Segoe UI" Size="9.22" />
 </ClassDiagram>

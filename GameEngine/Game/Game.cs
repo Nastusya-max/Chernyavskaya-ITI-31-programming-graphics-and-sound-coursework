@@ -1,5 +1,5 @@
 ﻿using System;
-using AmazingUILibrary;
+using UILibrary;
 using GameEngine.Animation;
 using GameEngine.Collisions;
 using GameEngine.Graphics;
