@@ -83,42 +83,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\AmmoComponent.cs" />
-    <Compile Include="Components\EnemyComponent.cs" />
     <Compile Include="Components\HealthComponent.cs" />
-    <Compile Include="Components\DestinationComponent.cs" />
     <Compile Include="Components\PhysicsComponent.cs" />
-    <Compile Include="Components\VisibilityComponent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scenes\LoseScene.cs" />
     <Compile Include="Scenes\MainGameScene.cs" />
     <Compile Include="Scenes\MainMenuScene.cs" />
     <Compile Include="Scenes\WonScene.cs" />
-    <Compile Include="Scripts\Bonuses\AmmoBonusScript.cs" />
-    <Compile Include="Scripts\Bonuses\HealthBonusScript.cs" />
-    <Compile Include="Scripts\Bonuses\InvisibilityBonusScript.cs" />
-    <Compile Include="Scripts\Bonuses\PickableBonusScript.cs" />
     <Compile Include="Scripts\BulletFlyScript.cs" />
     <Compile Include="Scripts\BulletScript.cs" />
     <Compile Include="Scripts\BulletSpawnerScript.cs" />
-    <Compile Include="Scripts\CameraFovController.cs" />
     <Compile Include="Scripts\CameraMovementScript.cs" />
-    <Compile Include="Scripts\Character\CharacterMovement.cs" />
     <Compile Include="Scripts\FinishPlatformScript.cs" />
     <Compile Include="Scripts\PlatformsMovementScript.cs" />
     <Compile Include="Scripts\PlatformsSpawnerScript.cs" />
-    <Compile Include="Scripts\Character\Player\PlayerGunScript.cs" />
-    <Compile Include="Scripts\Character\Player\PlayerMovementScript.cs" />
-    <Compile Include="Scripts\Character\VisibilityScript.cs" />
-    <Compile Include="Scripts\Character\ZombieMovementScript.cs" />
+    <Compile Include="Scripts\Player\PlayerGunScript.cs" />
+    <Compile Include="Scripts\Player\PlayerMovementScript.cs" />
     <Compile Include="Scripts\CreateBulletScript.cs" />
-    <Compile Include="Scripts\CreateTowerScript.cs" />
-    <Compile Include="Scripts\DinoMovementScript.cs" />
-    <Compile Include="Scripts\EnemyMovementScript.cs" />
     <Compile Include="Scripts\PhysicsScript.cs" />
-    <Compile Include="Scripts\SpawnScript.cs" />
-    <Compile Include="Scripts\TownHallAttackScript.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -129,21 +112,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
     <None Include="Models\bird.fbx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Models\bonusHeart.fbx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Models\bridge.fbx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Models\cake.fbx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Models\cube.fbx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Models\egg.fbx">
@@ -155,17 +127,7 @@
     <None Include="Models\heart.fbx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Models\plat.fbx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Models\platformFinish.fbx" />
     <None Include="Models\player.fbx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Models\Steve.fbx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Models\untitled.fbx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Models\platform.fbx">
@@ -200,9 +162,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Sounds\again.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Sounds\cake.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -215,18 +174,6 @@
     <Content Include="Sounds\egg.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\ammo.tif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\Bullets.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\duck.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\cupcake.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Textures\GlowingBorder.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -236,34 +183,10 @@
     <Content Include="Textures\Stella.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Towers\tower_blue.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\Towers\tower_green.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\Towers\tower_red.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\Towers\tower_yellow.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\Untitled-2.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Textures\Won.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\Без имени.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\Без имени.001.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Textures\buttonPressed.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Textures\KatolisCastle.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Textures\menu.png">
@@ -272,13 +195,8 @@
     <Content Include="Textures\button.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Textures\t_rex_diffuse.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\Enemy\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AssimpNet.4.1.0\build\AssimpNet.targets" Condition="Exists('..\packages\AssimpNet.4.1.0\build\AssimpNet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
